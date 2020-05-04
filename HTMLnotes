@@ -1,0 +1,30 @@
+<!DOCTYPE html> : File type html
+
+Tags:
+
+<html> </html>
+<head> </head>
+<body> </body>
+<title> </title> : Title on web tab
+
+<h1></h1> : Style text Goes down to h6, order of size/importance
+
+<p1></p1> : Paragraph tag
+
+</br> : Line break. No opening tag, only closing
+
+<strong></strong> : Bold
+
+<em></em> : Italics
+
+<button></button> : Adds button (text in between)
+
+<li></li> : Bulleted list [List items]
+
+<ul></ul> : Unordered list (put li tag in here) [Unordered List]
+
+<ol></ol> : Ordered list, uses numbers [Ordered List]
+
+Head and body tags have to be inside html Tags
+Indent tags
+Does not care about white spaces/spacing
