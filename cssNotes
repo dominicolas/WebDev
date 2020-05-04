@@ -1,0 +1,27 @@
+CSS Notes
+
+<style> </style> : Anything inside this tag is CSS
+
+CSS Rule
+1. selector with {}, can have multiple property: value;
+selector {
+    property: value;
+    property2: value;
+}
+
+Change selector{} to any tag:
+h1{
+color: red;
+}
+
+body{
+background:  //changes color of background
+}
+
+font-family: [font type];
+
+button{
+  background:
+  border: //changes border, can set to none
+  border-radius: 25px; //set border with rounded edges
+}
