@@ -1,0 +1,17 @@
+Multiple Page Links
+
+<a></a> : Word goes inbetween
+
+add attribute in a tag : href - hyperlink reference
+
+pick what  file it goes to
+
+<a href="index3.html">Home</a>
+
+if in folder, have to indicate path : href="pages/locations.html"
+
+href="../index.html" : will reference to file in above directory
+
+styles.css : make new page for style, grab everything except html tag
+
+<link rel="styelsheet" href ="[pathTofilename] : Bring css style by editing head tag
