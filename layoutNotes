@@ -1,0 +1,26 @@
+<div></div? : divider tag, box that spans from left to right, block display.
+
+semantic tabs:
+header
+nav
+section
+footer
+
+margin 20px;  : adds 20 pixel margin around everything
+               : 1 value adds to all around
+               : 2 values - first goes to top and bottom, second goes to left and right
+               : 4 values - goes clockwise top right bottom left
+
+padding : 1-4 values, almost same as margin
+
+display : inline; : Will display div in same line
+
+display : inline-block; : able to set width and height
+
+display : flex;
+
+flex/flex-direction: row/column; : must put in parent type (section) row, column
+
+margin: auto; : will be flexed across whole width
+
+list-style-type: none;  make bullets in list go away
