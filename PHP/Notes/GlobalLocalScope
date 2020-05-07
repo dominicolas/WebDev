@@ -1,0 +1,43 @@
+Global Scope: Variable outside the function
+
+Local Scope: Variable inside the function
+
+Superglobals:
+
+$x = 5;
+
+function something() {
+  $y = 10;
+  echo $GLOBALS['x'];
+}
+
+something();
+
+----------------------------------------$_POST -------------------------------------------------
+
+Passes information from url, but can't see information in url
+
+echo $_POST['name']; //echo's out name from post information
+
+$----------------------------------------$_GET -------------------------------------------------
+
+
+Passes information from url, and displays it in url
+
+----------------------------------------$_COOKIES -------------------------------------------------
+
+Saving information that's less dangerous
+time() : add current time
+86400 : Day in milliseconds
+
+time() - 1 : Will destroy cookie automatically
+
+setcookie("name", "Daniel", time() + 86400);
+
+
+$----------------------------------------$_SESSION -------------------------------------------------
+
+Make website remember who you are when you log in
+Ends when you close the browser
+
+$_SESSION['name'] = "12";
