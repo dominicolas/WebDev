@@ -1,0 +1,11 @@
+1 function does 1 thing
+
+$x = 100;
+
+functon newCalc($x) {
+  $newnr = $x * .75;
+  echo "here is 75% of what you wrote: ".$newnr;
+
+}
+
+newCalc($x);

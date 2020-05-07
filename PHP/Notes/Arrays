@@ -1,0 +1,3 @@
+$array = array("Daniel", "Jane", "Jacob");
+
+echo $array[insert position of array]; 
