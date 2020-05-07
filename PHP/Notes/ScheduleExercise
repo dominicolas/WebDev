@@ -1,0 +1,4 @@
+Include HTML code in PHP: need to be in quotations
+echo "<p>It is Thursday</p>";
+
+Treat it as a string

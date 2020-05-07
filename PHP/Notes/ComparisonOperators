@@ -1,0 +1,18 @@
+Comparison Operators
+
+$x = 5;
+$y = 10;
+
+if ($x == $y) {
+echo "True!";
+}
+else {
+echo "False!";
+}
+
+== : is equal
+!= : not equal
+=== : same value and the same data type
+< : less than
+<= : less than or equal to
+!== : not the same value or data type

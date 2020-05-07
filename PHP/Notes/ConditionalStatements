@@ -1,0 +1,11 @@
+$x =1;
+
+if ($x == 1){
+  echo "True";
+}
+elseif($x == 2){
+ echo "This is true";
+}
+else {
+  echo "Also True";
+}

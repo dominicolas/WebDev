@@ -1,0 +1,17 @@
+
+$x = 1 or $x = number
+
+switch ($x) {
+  case 1:
+        echo "The answer is 1";
+        break;
+  case "number":
+    echo "The answer is number"
+
+    //If answer is something else not stated, then does below
+    //Does not need break
+
+    default:
+      echo "There is no answer";
+
+}

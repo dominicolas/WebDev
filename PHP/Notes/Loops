@@ -1,0 +1,33 @@
+While Loop : Spit out information as long as conditions are true
+
+ $x = 1;
+
+ while($x < 5){
+    echo "hi there<br>";
+    $x++; //Will increment after each loop
+ }
+
+Do While : Always going to write/loop out once, even if while state is not true
+
+$x = 10;
+
+do{
+  echo "hi there<br>";
+  $x++;
+}
+
+ while($x < 5);
+
+ For Loop :3 different parameters, tell us how many times we need to do something
+
+ for($x = 0; $x <= 10; $x++;){
+      echo "hi<br>";
+ }
+
+ Foreach Loop : Inside parenthesis, refer to an array
+
+ $array = array("Daniel","Jane","Jacob");
+
+foreach ($array as $loopdata){
+  echo "My name is ".$loopdata."<br>";
+}
